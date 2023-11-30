@@ -1,0 +1,2157 @@
+
+    <html>
+    <head>
+        <style>
+            .styled-table {
+                width: 100%;
+                border-collapse: collapse;
+                font-size: 16px;
+                text-align: left;
+            }
+            .styled-table th, .styled-table td {
+                padding: 12px 15px;
+                border-bottom: 1px solid #ddd;
+                word-break: break-word;  /* Agregado para manejar palabras largas */
+            }
+            .styled-table th {
+                background-color: #f2f2f2;
+            }
+            .styled-table tr:nth-child(even) {
+                background-color: #f9f9f9;
+            }
+            .styled-table tr:hover {
+                background-color: #f5f5f5;
+            }
+        </style>
+    </head>
+    <body>
+        <table border="1" class="dataframe styled-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Item Name</th>
+      <th>Product Price</th>
+      <th>Brand</th>
+      <th>Stock</th>
+      <th>Supplier</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Onion Chutney</td>
+      <td>0.50</td>
+      <td>BlissBites</td>
+      <td>1939</td>
+      <td>PrimeLink Suppliers</td>
+    </tr>
+    <tr>
+      <td>Mint Sauce</td>
+      <td>0.50</td>
+      <td>VitaVerve</td>
+      <td>2265</td>
+      <td>PrimeLink Suppliers</td>
+    </tr>
+    <tr>
+      <td>Mango Chutney</td>
+      <td>0.50</td>
+      <td>TranquilTreats</td>
+      <td>2172</td>
+      <td>SummitSelect Services</td>
+    </tr>
+    <tr>
+      <td>Red Sauce</td>
+      <td>0.50</td>
+      <td>LunaLux</td>
+      <td>2267</td>
+      <td>NexusProcure Partners</td>
+    </tr>
+    <tr>
+      <td>Lime Pickle</td>
+      <td>0.50</td>
+      <td>EclipticElixirs</td>
+      <td>2360</td>
+      <td>OmniVendor Solutions</td>
+    </tr>
+    <tr>
+      <td>Plain Papadum</td>
+      <td>0.80</td>
+      <td>RadiantRecharge</td>
+      <td>2307</td>
+      <td>NexusProcure Partners</td>
+    </tr>
+    <tr>
+      <td>Spicy Papadum</td>
+      <td>0.80</td>
+      <td>NebulaNourish</td>
+      <td>2348</td>
+      <td>OptiTrade Enterprises</td>
+    </tr>
+    <tr>
+      <td>Chapati</td>
+      <td>1.95</td>
+      <td>SlickBlend</td>
+      <td>1064</td>
+      <td>NexusProcure Partners</td>
+    </tr>
+    <tr>
+      <td>Puree</td>
+      <td>1.95</td>
+      <td>RadiantRecharge</td>
+      <td>1338</td>
+      <td>OmniVendor Solutions</td>
+    </tr>
+    <tr>
+      <td>Dahi</td>
+      <td>1.95</td>
+      <td>TurboTaste</td>
+      <td>1553</td>
+      <td>NexusProcure Partners</td>
+    </tr>
+    <tr>
+      <td>Naan</td>
+      <td>2.50</td>
+      <td>FusionFlare</td>
+      <td>608</td>
+      <td>PrimeLink Suppliers</td>
+    </tr>
+    <tr>
+      <td>Tandoori Roti</td>
+      <td>2.50</td>
+      <td>LunaLux</td>
+      <td>509</td>
+      <td>SummitSelect Services</td>
+    </tr>
+    <tr>
+      <td>Keema Naan</td>
+      <td>2.95</td>
+      <td>LunaLux</td>
+      <td>904</td>
+      <td>QuantumConnect Distributors</td>
+    </tr>
+    <tr>
+      <td>Pilau Rice</td>
+      <td>2.95</td>
+      <td>QuantumQuench</td>
+      <td>1649</td>
+      <td>GlobalSource Solutions</td>
+    </tr>
+    <tr>
+      <td>Garlic Naan</td>
+      <td>2.95</td>
+      <td>PinnaclePleasure</td>
+      <td>2376</td>
+      <td>QuantumConnect Distributors</td>
+    </tr>
+    <tr>
+      <td>Plain Rice</td>
+      <td>2.95</td>
+      <td>NebulaNourish</td>
+      <td>1718</td>
+      <td>OmniVendor Solutions</td>
+    </tr>
+    <tr>
+      <td>Bottle Coke</td>
+      <td>2.95</td>
+      <td>PixelPunch</td>
+      <td>1446</td>
+      <td>GlobalSource Solutions</td>
+    </tr>
+    <tr>
+      <td>Peshwari Naan</td>
+      <td>2.95</td>
+      <td>BlissBites</td>
+      <td>1810</td>
+      <td>QuantumConnect Distributors</td>
+    </tr>
+    <tr>
+      <td>Paratha</td>
+      <td>2.95</td>
+      <td>VelocityVitality</td>
+      <td>1774</td>
+      <td>OmniVendor Solutions</td>
+    </tr>
+    <tr>
+      <td>Green Salad</td>
+      <td>2.95</td>
+      <td>AuroraAppetite</td>
+      <td>1520</td>
+      <td>GlobalSource Solutions</td>
+    </tr>
+    <tr>
+      <td>Mixed Raita</td>
+      <td>2.95</td>
+      <td>AuroraAppetite</td>
+      <td>782</td>
+      <td>GlobalSource Solutions</td>
+    </tr>
+    <tr>
+      <td>Kulcha Naan</td>
+      <td>2.95</td>
+      <td>QuantumQuench</td>
+      <td>1850</td>
+      <td>GlobalSource Solutions</td>
+    </tr>
+    <tr>
+      <td>Lemonade 1.5 ltr</td>
+      <td>2.95</td>
+      <td>StellarSnack</td>
+      <td>720</td>
+      <td>SummitSelect Services</td>
+    </tr>
+    <tr>
+      <td>Tandoori Paratha</td>
+      <td>2.95</td>
+      <td>StellarSnack</td>
+      <td>1341</td>
+      <td>QuantumConnect Distributors</td>
+    </tr>
+    <tr>
+      <td>Bottle Diet Coke</td>
+      <td>2.95</td>
+      <td>AuroraAppetite</td>
+      <td>1109</td>
+      <td>OmniVendor Solutions</td>
+    </tr>
+    <tr>
+      <td>Diet Coke 1.5 ltr</td>
+      <td>2.95</td>
+      <td>PixelPunch</td>
+      <td>1341</td>
+      <td>GlobalSource Solutions</td>
+    </tr>
+    <tr>
+      <td>Coke 1.5 ltr</td>
+      <td>2.95</td>
+      <td>VitaVerve</td>
+      <td>2272</td>
+      <td>OptiTrade Enterprises</td>
+    </tr>
+    <tr>
+      <td>Vegetable Samosa</td>
+      <td>3.95</td>
+      <td>AuroraAppetite</td>
+      <td>1428</td>
+      <td>GlobalSource Solutions</td>
+    </tr>
+    <tr>
+      <td>Garlic Rice</td>
+      <td>3.95</td>
+      <td>VitaVerve</td>
+      <td>1171</td>
+      <td>SummitSelect Services</td>
+    </tr>
+    <tr>
+      <td>Mushroom Rice</td>
+      <td>3.95</td>
+      <td>VitaVerve</td>
+      <td>765</td>
+      <td>PrimeLink Suppliers</td>
+    </tr>
+    <tr>
+      <td>Onion Bhaji</td>
+      <td>3.95</td>
+      <td>VitaVerve</td>
+      <td>1997</td>
+      <td>OptiTrade Enterprises</td>
+    </tr>
+    <tr>
+      <td>Mini Bhaji</td>
+      <td>3.95</td>
+      <td>RadiantRecharge</td>
+      <td>1104</td>
+      <td>QuantumConnect Distributors</td>
+    </tr>
+    <tr>
+      <td>Vegetable Rice</td>
+      <td>3.95</td>
+      <td>TranquilTreats</td>
+      <td>2006</td>
+      <td>PrimeLink Suppliers</td>
+    </tr>
+    <tr>
+      <td>Egg Rice</td>
+      <td>3.95</td>
+      <td>FusionFlare</td>
+      <td>1991</td>
+      <td>QuantumConnect Distributors</td>
+    </tr>
+    <tr>
+      <td>Keema Rice</td>
+      <td>3.95</td>
+      <td>RadiantRecharge</td>
+      <td>996</td>
+      <td>OmniVendor Solutions</td>
+    </tr>
+    <tr>
+      <td>Meat Samosa</td>
+      <td>3.95</td>
+      <td>EclipticElixirs</td>
+      <td>2254</td>
+      <td>QuantumConnect Distributors</td>
+    </tr>
+    <tr>
+      <td>French Fries</td>
+      <td>3.95</td>
+      <td>LunaLux</td>
+      <td>2419</td>
+      <td>SummitSelect Services</td>
+    </tr>
+    <tr>
+      <td>Special Fried Rice</td>
+      <td>3.95</td>
+      <td>SlickBlend</td>
+      <td>1202</td>
+      <td>GlobalSource Solutions</td>
+    </tr>
+    <tr>
+      <td>Onion Rice</td>
+      <td>3.95</td>
+      <td>VitaVerve</td>
+      <td>904</td>
+      <td>GlobalSource Solutions</td>
+    </tr>
+    <tr>
+      <td>Lemon Rice</td>
+      <td>3.95</td>
+      <td>ZenZest</td>
+      <td>1552</td>
+      <td>QuantumConnect Distributors</td>
+    </tr>
+    <tr>
+      <td>Saag Rice</td>
+      <td>3.95</td>
+      <td>TurboTaste</td>
+      <td>968</td>
+      <td>NexusProcure Partners</td>
+    </tr>
+    <tr>
+      <td>Stuffed Paratha</td>
+      <td>3.95</td>
+      <td>ZenZest</td>
+      <td>1639</td>
+      <td>SummitSelect Services</td>
+    </tr>
+    <tr>
+      <td>Vindaloo Sauce</td>
+      <td>3.95</td>
+      <td>FusionFlare</td>
+      <td>1665</td>
+      <td>GlobalSource Solutions</td>
+    </tr>
+    <tr>
+      <td>Crispy Aloo</td>
+      <td>3.95</td>
+      <td>RadiantRecharge</td>
+      <td>699</td>
+      <td>QuantumConnect Distributors</td>
+    </tr>
+    <tr>
+      <td>Madras Sauce</td>
+      <td>3.95</td>
+      <td>SlickBlend</td>
+      <td>1096</td>
+      <td>GlobalSource Solutions</td>
+    </tr>
+    <tr>
+      <td>COBRA (330ML)</td>
+      <td>3.95</td>
+      <td>RadiantRecharge</td>
+      <td>881</td>
+      <td>QuantumConnect Distributors</td>
+    </tr>
+    <tr>
+      <td>Egg Paratha</td>
+      <td>3.95</td>
+      <td>CelestialCrunch</td>
+      <td>2245</td>
+      <td>NexusProcure Partners</td>
+    </tr>
+    <tr>
+      <td>Curry Sauce</td>
+      <td>3.95</td>
+      <td>VelocityVitality</td>
+      <td>1463</td>
+      <td>NexusProcure Partners</td>
+    </tr>
+    <tr>
+      <td>Perrier Water 75cl</td>
+      <td>3.95</td>
+      <td>NebulaNourish</td>
+      <td>1054</td>
+      <td>OmniVendor Solutions</td>
+    </tr>
+    <tr>
+      <td>Bottle Water 75cl</td>
+      <td>3.95</td>
+      <td>TurboTaste</td>
+      <td>2186</td>
+      <td>OmniVendor Solutions</td>
+    </tr>
+    <tr>
+      <td>Chicken Chaat</td>
+      <td>4.95</td>
+      <td>NovaNectar</td>
+      <td>532</td>
+      <td>SummitSelect Services</td>
+    </tr>
+    <tr>
+      <td>Sheek Kebab</td>
+      <td>4.95</td>
+      <td>PinnaclePleasure</td>
+      <td>1005</td>
+      <td>OptiTrade Enterprises</td>
+    </tr>
+    <tr>
+      <td>Tandoori Chicken</td>
+      <td>4.95</td>
+      <td>VelocityVitality</td>
+      <td>862</td>
+      <td>QuantumConnect Distributors</td>
+    </tr>
+    <tr>
+      <td>Chicken Tikka</td>
+      <td>4.95</td>
+      <td>VitaVerve</td>
+      <td>2124</td>
+      <td>OmniVendor Solutions</td>
+    </tr>
+    <tr>
+      <td>Korma Sauce</td>
+      <td>4.95</td>
+      <td>CelestialCrunch</td>
+      <td>1663</td>
+      <td>OptiTrade Enterprises</td>
+    </tr>
+    <tr>
+      <td>Prawn Puree</td>
+      <td>4.95</td>
+      <td>SlickBlend</td>
+      <td>2490</td>
+      <td>PrimeLink Suppliers</td>
+    </tr>
+    <tr>
+      <td>Chicken Pakora</td>
+      <td>4.95</td>
+      <td>PixelPunch</td>
+      <td>1817</td>
+      <td>OptiTrade Enterprises</td>
+    </tr>
+    <tr>
+      <td>Chana Chaat</td>
+      <td>4.95</td>
+      <td>TranquilTreats</td>
+      <td>1064</td>
+      <td>SummitSelect Services</td>
+    </tr>
+    <tr>
+      <td>Aloo Chaat</td>
+      <td>4.95</td>
+      <td>StellarSnack</td>
+      <td>1246</td>
+      <td>NexusProcure Partners</td>
+    </tr>
+    <tr>
+      <td>Paneer Pakora</td>
+      <td>4.95</td>
+      <td>HarmonyHydrate</td>
+      <td>1786</td>
+      <td>SummitSelect Services</td>
+    </tr>
+    <tr>
+      <td>Garlic Chicken Rice</td>
+      <td>4.95</td>
+      <td>AuroraAppetite</td>
+      <td>2322</td>
+      <td>PrimeLink Suppliers</td>
+    </tr>
+    <tr>
+      <td>Masala Sauce</td>
+      <td>4.95</td>
+      <td>VelocityVitality</td>
+      <td>1271</td>
+      <td>QuantumConnect Distributors</td>
+    </tr>
+    <tr>
+      <td>Lamb Tikka</td>
+      <td>4.95</td>
+      <td>SlickBlend</td>
+      <td>751</td>
+      <td>SummitSelect Services</td>
+    </tr>
+    <tr>
+      <td>Sheek Kehab</td>
+      <td>4.95</td>
+      <td>TranquilTreats</td>
+      <td>1188</td>
+      <td>NexusProcure Partners</td>
+    </tr>
+    <tr>
+      <td>Paner Pakora</td>
+      <td>4.95</td>
+      <td>ZenZest</td>
+      <td>884</td>
+      <td>PrimeLink Suppliers</td>
+    </tr>
+    <tr>
+      <td>Kurma Sauce</td>
+      <td>4.95</td>
+      <td>TurboTaste</td>
+      <td>540</td>
+      <td>OptiTrade Enterprises</td>
+    </tr>
+    <tr>
+      <td>COBRA ( LARGE )</td>
+      <td>5.50</td>
+      <td>EclipticElixirs</td>
+      <td>964</td>
+      <td>QuantumConnect Distributors</td>
+    </tr>
+    <tr>
+      <td>COBRA (660ML)</td>
+      <td>5.50</td>
+      <td>LunaLux</td>
+      <td>2212</td>
+      <td>OptiTrade Enterprises</td>
+    </tr>
+    <tr>
+      <td>Bombay Aloo</td>
+      <td>5.95</td>
+      <td>TranquilTreats</td>
+      <td>2058</td>
+      <td>SummitSelect Services</td>
+    </tr>
+    <tr>
+      <td>Tarka Dall</td>
+      <td>5.95</td>
+      <td>AuroraAppetite</td>
+      <td>2109</td>
+      <td>PrimeLink Suppliers</td>
+    </tr>
+    <tr>
+      <td>Vegetable Curry</td>
+      <td>5.95</td>
+      <td>HarmonyHydrate</td>
+      <td>2158</td>
+      <td>NexusProcure Partners</td>
+    </tr>
+    <tr>
+      <td>Saag Aloo</td>
+      <td>5.95</td>
+      <td>FusionFlare</td>
+      <td>2454</td>
+      <td>SummitSelect Services</td>
+    </tr>
+    <tr>
+      <td>Aloo Mithy</td>
+      <td>5.95</td>
+      <td>TranquilTreats</td>
+      <td>1513</td>
+      <td>QuantumConnect Distributors</td>
+    </tr>
+    <tr>
+      <td>Brinjal Bhajee</td>
+      <td>5.95</td>
+      <td>SlickBlend</td>
+      <td>1819</td>
+      <td>GlobalSource Solutions</td>
+    </tr>
+    <tr>
+      <td>Bhindi Bhajee</td>
+      <td>5.95</td>
+      <td>TurboTaste</td>
+      <td>1332</td>
+      <td>QuantumConnect Distributors</td>
+    </tr>
+    <tr>
+      <td>Mix Starter</td>
+      <td>5.95</td>
+      <td>FusionFlare</td>
+      <td>1930</td>
+      <td>OptiTrade Enterprises</td>
+    </tr>
+    <tr>
+      <td>Aloo Gobi</td>
+      <td>5.95</td>
+      <td>PixelPunch</td>
+      <td>908</td>
+      <td>NexusProcure Partners</td>
+    </tr>
+    <tr>
+      <td>Muttar Paneer</td>
+      <td>5.95</td>
+      <td>AuroraAppetite</td>
+      <td>1255</td>
+      <td>OmniVendor Solutions</td>
+    </tr>
+    <tr>
+      <td>Cauliflower Bhajee</td>
+      <td>5.95</td>
+      <td>EclipticElixirs</td>
+      <td>2482</td>
+      <td>OptiTrade Enterprises</td>
+    </tr>
+    <tr>
+      <td>Royal Paneer</td>
+      <td>5.95</td>
+      <td>SlickBlend</td>
+      <td>1407</td>
+      <td>OptiTrade Enterprises</td>
+    </tr>
+    <tr>
+      <td>Lamb Chops</td>
+      <td>5.95</td>
+      <td>CelestialCrunch</td>
+      <td>1208</td>
+      <td>PrimeLink Suppliers</td>
+    </tr>
+    <tr>
+      <td>Aloo Peas</td>
+      <td>5.95</td>
+      <td>PixelPunch</td>
+      <td>1239</td>
+      <td>OptiTrade Enterprises</td>
+    </tr>
+    <tr>
+      <td>Chana Masala</td>
+      <td>5.95</td>
+      <td>EclipticElixirs</td>
+      <td>1794</td>
+      <td>OptiTrade Enterprises</td>
+    </tr>
+    <tr>
+      <td>Aloo Dupiaza</td>
+      <td>5.95</td>
+      <td>HarmonyHydrate</td>
+      <td>1407</td>
+      <td>QuantumConnect Distributors</td>
+    </tr>
+    <tr>
+      <td>Vegetable Samba</td>
+      <td>5.95</td>
+      <td>VelocityVitality</td>
+      <td>1399</td>
+      <td>GlobalSource Solutions</td>
+    </tr>
+    <tr>
+      <td>Saag Dall</td>
+      <td>5.95</td>
+      <td>TurboTaste</td>
+      <td>2129</td>
+      <td>PrimeLink Suppliers</td>
+    </tr>
+    <tr>
+      <td>Mushroom Bhajee</td>
+      <td>5.95</td>
+      <td>FusionFlare</td>
+      <td>1564</td>
+      <td>NexusProcure Partners</td>
+    </tr>
+    <tr>
+      <td>Aloo Brinjal</td>
+      <td>5.95</td>
+      <td>HarmonyHydrate</td>
+      <td>933</td>
+      <td>PrimeLink Suppliers</td>
+    </tr>
+    <tr>
+      <td>Saag Bhajee</td>
+      <td>5.95</td>
+      <td>TurboTaste</td>
+      <td>1896</td>
+      <td>OmniVendor Solutions</td>
+    </tr>
+    <tr>
+      <td>Saag Paneer</td>
+      <td>5.95</td>
+      <td>VelocityVitality</td>
+      <td>2371</td>
+      <td>OptiTrade Enterprises</td>
+    </tr>
+    <tr>
+      <td>Tandoori Fish</td>
+      <td>5.95</td>
+      <td>ZenZest</td>
+      <td>2421</td>
+      <td>SummitSelect Services</td>
+    </tr>
+    <tr>
+      <td>Garlic Mushroom</td>
+      <td>5.95</td>
+      <td>CelestialCrunch</td>
+      <td>1381</td>
+      <td>OptiTrade Enterprises</td>
+    </tr>
+    <tr>
+      <td>King Prawn Puree</td>
+      <td>5.95</td>
+      <td>NovaNectar</td>
+      <td>685</td>
+      <td>GlobalSource Solutions</td>
+    </tr>
+    <tr>
+      <td>Bangon Hari Mirch</td>
+      <td>5.95</td>
+      <td>LunaLux</td>
+      <td>1524</td>
+      <td>GlobalSource Solutions</td>
+    </tr>
+    <tr>
+      <td>King Prawn Butterfly</td>
+      <td>5.95</td>
+      <td>NebulaNourish</td>
+      <td>619</td>
+      <td>SummitSelect Services</td>
+    </tr>
+    <tr>
+      <td>Mixed Starter</td>
+      <td>5.95</td>
+      <td>FusionFlare</td>
+      <td>2146</td>
+      <td>GlobalSource Solutions</td>
+    </tr>
+    <tr>
+      <td>Vegetable Bhuna</td>
+      <td>6.95</td>
+      <td>VitaVerve</td>
+      <td>635</td>
+      <td>PrimeLink Suppliers</td>
+    </tr>
+    <tr>
+      <td>Vegetable Korma</td>
+      <td>6.95</td>
+      <td>VelocityVitality</td>
+      <td>1354</td>
+      <td>PrimeLink Suppliers</td>
+    </tr>
+    <tr>
+      <td>Vegetable Dansak</td>
+      <td>6.95</td>
+      <td>RadiantRecharge</td>
+      <td>1617</td>
+      <td>OmniVendor Solutions</td>
+    </tr>
+    <tr>
+      <td>Vegetable Masala</td>
+      <td>6.95</td>
+      <td>AuroraAppetite</td>
+      <td>863</td>
+      <td>SummitSelect Services</td>
+    </tr>
+    <tr>
+      <td>Curry - Lamb</td>
+      <td>7.95</td>
+      <td>PinnaclePleasure</td>
+      <td>610</td>
+      <td>NexusProcure Partners</td>
+    </tr>
+    <tr>
+      <td>Madras - Chicken</td>
+      <td>7.95</td>
+      <td>HarmonyHydrate</td>
+      <td>765</td>
+      <td>NexusProcure Partners</td>
+    </tr>
+    <tr>
+      <td>Curry - Chicken</td>
+      <td>7.95</td>
+      <td>NovaNectar</td>
+      <td>1225</td>
+      <td>QuantumConnect Distributors</td>
+    </tr>
+    <tr>
+      <td>Vindaloo - Chicken</td>
+      <td>7.95</td>
+      <td>CelestialCrunch</td>
+      <td>1689</td>
+      <td>NexusProcure Partners</td>
+    </tr>
+    <tr>
+      <td>Vindaloo - Lamb</td>
+      <td>7.95</td>
+      <td>NebulaNourish</td>
+      <td>1872</td>
+      <td>NexusProcure Partners</td>
+    </tr>
+    <tr>
+      <td>Vegetable Jalfrezi</td>
+      <td>7.95</td>
+      <td>VelocityVitality</td>
+      <td>2255</td>
+      <td>SummitSelect Services</td>
+    </tr>
+    <tr>
+      <td>Madras - Lamb</td>
+      <td>7.95</td>
+      <td>PixelPunch</td>
+      <td>2241</td>
+      <td>PrimeLink Suppliers</td>
+    </tr>
+    <tr>
+      <td>Madras</td>
+      <td>7.95</td>
+      <td>QuantumQuench</td>
+      <td>2119</td>
+      <td>QuantumConnect Distributors</td>
+    </tr>
+    <tr>
+      <td>Curry</td>
+      <td>7.95</td>
+      <td>AuroraAppetite</td>
+      <td>717</td>
+      <td>OmniVendor Solutions</td>
+    </tr>
+    <tr>
+      <td>Vindaloo</td>
+      <td>7.95</td>
+      <td>HarmonyHydrate</td>
+      <td>2141</td>
+      <td>GlobalSource Solutions</td>
+    </tr>
+    <tr>
+      <td>Chicken Tikka Masala</td>
+      <td>8.95</td>
+      <td>PixelPunch</td>
+      <td>1724</td>
+      <td>OptiTrade Enterprises</td>
+    </tr>
+    <tr>
+      <td>Butter Chicken</td>
+      <td>8.95</td>
+      <td>NovaNectar</td>
+      <td>729</td>
+      <td>QuantumConnect Distributors</td>
+    </tr>
+    <tr>
+      <td>Korma - Chicken</td>
+      <td>8.95</td>
+      <td>PixelPunch</td>
+      <td>1256</td>
+      <td>OmniVendor Solutions</td>
+    </tr>
+    <tr>
+      <td>Bhuna - Chicken Tikka</td>
+      <td>8.95</td>
+      <td>TranquilTreats</td>
+      <td>1259</td>
+      <td>PrimeLink Suppliers</td>
+    </tr>
+    <tr>
+      <td>Rogon - Lamb</td>
+      <td>8.95</td>
+      <td>HarmonyHydrate</td>
+      <td>673</td>
+      <td>GlobalSource Solutions</td>
+    </tr>
+    <tr>
+      <td>Korma - Chicken Tikka</td>
+      <td>8.95</td>
+      <td>FusionFlare</td>
+      <td>869</td>
+      <td>PrimeLink Suppliers</td>
+    </tr>
+    <tr>
+      <td>Chicken Tikka Jalfrezi</td>
+      <td>8.95</td>
+      <td>NovaNectar</td>
+      <td>2226</td>
+      <td>OptiTrade Enterprises</td>
+    </tr>
+    <tr>
+      <td>Bhuna - Lamb</td>
+      <td>8.95</td>
+      <td>QuantumQuench</td>
+      <td>741</td>
+      <td>NexusProcure Partners</td>
+    </tr>
+    <tr>
+      <td>Pathia - Chicken</td>
+      <td>8.95</td>
+      <td>EclipticElixirs</td>
+      <td>2295</td>
+      <td>OptiTrade Enterprises</td>
+    </tr>
+    <tr>
+      <td>Chicken Chaat (Main)</td>
+      <td>8.95</td>
+      <td>AuroraAppetite</td>
+      <td>1152</td>
+      <td>GlobalSource Solutions</td>
+    </tr>
+    <tr>
+      <td>Dhansak - Lamb</td>
+      <td>8.95</td>
+      <td>PinnaclePleasure</td>
+      <td>1267</td>
+      <td>SummitSelect Services</td>
+    </tr>
+    <tr>
+      <td>Chicken Tikka Pasanda</td>
+      <td>8.95</td>
+      <td>QuantumQuench</td>
+      <td>1873</td>
+      <td>QuantumConnect Distributors</td>
+    </tr>
+    <tr>
+      <td>Dupiaza - Chicken</td>
+      <td>8.95</td>
+      <td>AuroraAppetite</td>
+      <td>2243</td>
+      <td>NexusProcure Partners</td>
+    </tr>
+    <tr>
+      <td>Garlic Lamb</td>
+      <td>8.95</td>
+      <td>VitaVerve</td>
+      <td>848</td>
+      <td>GlobalSource Solutions</td>
+    </tr>
+    <tr>
+      <td>Chicken Hari Mirch</td>
+      <td>8.95</td>
+      <td>AuroraAppetite</td>
+      <td>702</td>
+      <td>SummitSelect Services</td>
+    </tr>
+    <tr>
+      <td>Bhuna - Chicken</td>
+      <td>8.95</td>
+      <td>EclipticElixirs</td>
+      <td>532</td>
+      <td>PrimeLink Suppliers</td>
+    </tr>
+    <tr>
+      <td>Tandoori Chicken (Main)</td>
+      <td>8.95</td>
+      <td>NebulaNourish</td>
+      <td>2235</td>
+      <td>NexusProcure Partners</td>
+    </tr>
+    <tr>
+      <td>Dhansak - Chicken</td>
+      <td>8.95</td>
+      <td>VelocityVitality</td>
+      <td>2176</td>
+      <td>PrimeLink Suppliers</td>
+    </tr>
+    <tr>
+      <td>Dupiaza - Lamb</td>
+      <td>8.95</td>
+      <td>PinnaclePleasure</td>
+      <td>1156</td>
+      <td>QuantumConnect Distributors</td>
+    </tr>
+    <tr>
+      <td>Chicken Tikka (Main)</td>
+      <td>8.95</td>
+      <td>StellarSnack</td>
+      <td>1006</td>
+      <td>OptiTrade Enterprises</td>
+    </tr>
+    <tr>
+      <td>Chicken Karahi</td>
+      <td>8.95</td>
+      <td>VitaVerve</td>
+      <td>1981</td>
+      <td>NexusProcure Partners</td>
+    </tr>
+    <tr>
+      <td>Chicken Chilli Suka</td>
+      <td>8.95</td>
+      <td>VitaVerve</td>
+      <td>1442</td>
+      <td>OmniVendor Solutions</td>
+    </tr>
+    <tr>
+      <td>Chicken Chilli Masala</td>
+      <td>8.95</td>
+      <td>BlissBites</td>
+      <td>1121</td>
+      <td>OptiTrade Enterprises</td>
+    </tr>
+    <tr>
+      <td>Curry - Chicken Tikka</td>
+      <td>8.95</td>
+      <td>EclipticElixirs</td>
+      <td>2117</td>
+      <td>PrimeLink Suppliers</td>
+    </tr>
+    <tr>
+      <td>Grapes Special</td>
+      <td>8.95</td>
+      <td>NovaNectar</td>
+      <td>1006</td>
+      <td>SummitSelect Services</td>
+    </tr>
+    <tr>
+      <td>Lamb Hari Mirch</td>
+      <td>8.95</td>
+      <td>PixelPunch</td>
+      <td>1072</td>
+      <td>OptiTrade Enterprises</td>
+    </tr>
+    <tr>
+      <td>Madras - Prawn</td>
+      <td>8.95</td>
+      <td>NovaNectar</td>
+      <td>583</td>
+      <td>OptiTrade Enterprises</td>
+    </tr>
+    <tr>
+      <td>Paneer Tikka Masala</td>
+      <td>8.95</td>
+      <td>NovaNectar</td>
+      <td>2229</td>
+      <td>SummitSelect Services</td>
+    </tr>
+    <tr>
+      <td>Korma - Lamb</td>
+      <td>8.95</td>
+      <td>LunaLux</td>
+      <td>2167</td>
+      <td>OptiTrade Enterprises</td>
+    </tr>
+    <tr>
+      <td>Pathia - Chicken Tikka</td>
+      <td>8.95</td>
+      <td>NovaNectar</td>
+      <td>1227</td>
+      <td>SummitSelect Services</td>
+    </tr>
+    <tr>
+      <td>Rogon - Chicken</td>
+      <td>8.95</td>
+      <td>ZenZest</td>
+      <td>1773</td>
+      <td>GlobalSource Solutions</td>
+    </tr>
+    <tr>
+      <td>Chicken Royal</td>
+      <td>8.95</td>
+      <td>FusionFlare</td>
+      <td>1511</td>
+      <td>NexusProcure Partners</td>
+    </tr>
+    <tr>
+      <td>Saag - Chicken</td>
+      <td>8.95</td>
+      <td>LunaLux</td>
+      <td>2249</td>
+      <td>NexusProcure Partners</td>
+    </tr>
+    <tr>
+      <td>Madras - Chicken Tikka</td>
+      <td>8.95</td>
+      <td>TurboTaste</td>
+      <td>1204</td>
+      <td>QuantumConnect Distributors</td>
+    </tr>
+    <tr>
+      <td>Mushroom - Chicken</td>
+      <td>8.95</td>
+      <td>QuantumQuench</td>
+      <td>2035</td>
+      <td>SummitSelect Services</td>
+    </tr>
+    <tr>
+      <td>Lal Mirch Chicken</td>
+      <td>8.95</td>
+      <td>TurboTaste</td>
+      <td>2057</td>
+      <td>OmniVendor Solutions</td>
+    </tr>
+    <tr>
+      <td>Cylon - Chicken</td>
+      <td>8.95</td>
+      <td>BlissBites</td>
+      <td>1660</td>
+      <td>GlobalSource Solutions</td>
+    </tr>
+    <tr>
+      <td>Chicken Rezala</td>
+      <td>8.95</td>
+      <td>BlissBites</td>
+      <td>2248</td>
+      <td>GlobalSource Solutions</td>
+    </tr>
+    <tr>
+      <td>Saag - Lamb</td>
+      <td>8.95</td>
+      <td>NebulaNourish</td>
+      <td>1692</td>
+      <td>GlobalSource Solutions</td>
+    </tr>
+    <tr>
+      <td>Malaya - Chicken Tikka</td>
+      <td>8.95</td>
+      <td>LunaLux</td>
+      <td>2401</td>
+      <td>OmniVendor Solutions</td>
+    </tr>
+    <tr>
+      <td>Methi - Chicken</td>
+      <td>8.95</td>
+      <td>TranquilTreats</td>
+      <td>1648</td>
+      <td>OmniVendor Solutions</td>
+    </tr>
+    <tr>
+      <td>Murgh Masala</td>
+      <td>8.95</td>
+      <td>HarmonyHydrate</td>
+      <td>2398</td>
+      <td>NexusProcure Partners</td>
+    </tr>
+    <tr>
+      <td>Garlic Mirch Chicken</td>
+      <td>8.95</td>
+      <td>CelestialCrunch</td>
+      <td>1499</td>
+      <td>OmniVendor Solutions</td>
+    </tr>
+    <tr>
+      <td>Vindaloo - Chicken Tikka</td>
+      <td>8.95</td>
+      <td>HarmonyHydrate</td>
+      <td>1237</td>
+      <td>OmniVendor Solutions</td>
+    </tr>
+    <tr>
+      <td>Lamb Karahi</td>
+      <td>8.95</td>
+      <td>RadiantRecharge</td>
+      <td>2455</td>
+      <td>QuantumConnect Distributors</td>
+    </tr>
+    <tr>
+      <td>Jeera Chicken</td>
+      <td>8.95</td>
+      <td>EclipticElixirs</td>
+      <td>2062</td>
+      <td>SummitSelect Services</td>
+    </tr>
+    <tr>
+      <td>Paneer Dansak</td>
+      <td>8.95</td>
+      <td>EclipticElixirs</td>
+      <td>1526</td>
+      <td>OmniVendor Solutions</td>
+    </tr>
+    <tr>
+      <td>Achar Chicken</td>
+      <td>8.95</td>
+      <td>NebulaNourish</td>
+      <td>2449</td>
+      <td>OmniVendor Solutions</td>
+    </tr>
+    <tr>
+      <td>Achar Lamb</td>
+      <td>8.95</td>
+      <td>StellarSnack</td>
+      <td>903</td>
+      <td>QuantumConnect Distributors</td>
+    </tr>
+    <tr>
+      <td>Sheek Kebab (Main)</td>
+      <td>8.95</td>
+      <td>NovaNectar</td>
+      <td>2221</td>
+      <td>QuantumConnect Distributors</td>
+    </tr>
+    <tr>
+      <td>Lamb Tikka (Main)</td>
+      <td>8.95</td>
+      <td>NebulaNourish</td>
+      <td>2484</td>
+      <td>SummitSelect Services</td>
+    </tr>
+    <tr>
+      <td>Bombay - Chicken</td>
+      <td>8.95</td>
+      <td>AuroraAppetite</td>
+      <td>1468</td>
+      <td>SummitSelect Services</td>
+    </tr>
+    <tr>
+      <td>Garlic Mirch Lamb</td>
+      <td>8.95</td>
+      <td>RadiantRecharge</td>
+      <td>1244</td>
+      <td>OmniVendor Solutions</td>
+    </tr>
+    <tr>
+      <td>Paneer Kurma</td>
+      <td>8.95</td>
+      <td>PinnaclePleasure</td>
+      <td>1640</td>
+      <td>OmniVendor Solutions</td>
+    </tr>
+    <tr>
+      <td>Pathia - Lamb</td>
+      <td>8.95</td>
+      <td>SlickBlend</td>
+      <td>2157</td>
+      <td>SummitSelect Services</td>
+    </tr>
+    <tr>
+      <td>Garlic Chicken</td>
+      <td>8.95</td>
+      <td>SlickBlend</td>
+      <td>1832</td>
+      <td>QuantumConnect Distributors</td>
+    </tr>
+    <tr>
+      <td>Vegetable Karahi</td>
+      <td>8.95</td>
+      <td>NovaNectar</td>
+      <td>1719</td>
+      <td>NexusProcure Partners</td>
+    </tr>
+    <tr>
+      <td>Dhansak - Chicken Tikka</td>
+      <td>8.95</td>
+      <td>FusionFlare</td>
+      <td>1733</td>
+      <td>OptiTrade Enterprises</td>
+    </tr>
+    <tr>
+      <td>Bombay - Lamb</td>
+      <td>8.95</td>
+      <td>TurboTaste</td>
+      <td>1698</td>
+      <td>NexusProcure Partners</td>
+    </tr>
+    <tr>
+      <td>Lamb Tikka Masala</td>
+      <td>8.95</td>
+      <td>CelestialCrunch</td>
+      <td>2130</td>
+      <td>NexusProcure Partners</td>
+    </tr>
+    <tr>
+      <td>Lamb Tikka Jalfrezi</td>
+      <td>8.95</td>
+      <td>RadiantRecharge</td>
+      <td>1586</td>
+      <td>PrimeLink Suppliers</td>
+    </tr>
+    <tr>
+      <td>Chicken Sylhet</td>
+      <td>8.95</td>
+      <td>VitaVerve</td>
+      <td>550</td>
+      <td>NexusProcure Partners</td>
+    </tr>
+    <tr>
+      <td>Curry - Prawn</td>
+      <td>8.95</td>
+      <td>TranquilTreats</td>
+      <td>1152</td>
+      <td>GlobalSource Solutions</td>
+    </tr>
+    <tr>
+      <td>Dupiaza - Chicken Tikka</td>
+      <td>8.95</td>
+      <td>HarmonyHydrate</td>
+      <td>2179</td>
+      <td>GlobalSource Solutions</td>
+    </tr>
+    <tr>
+      <td>Chilli Paneer</td>
+      <td>8.95</td>
+      <td>TurboTaste</td>
+      <td>883</td>
+      <td>SummitSelect Services</td>
+    </tr>
+    <tr>
+      <td>Rogon - Chicken Tikka</td>
+      <td>8.95</td>
+      <td>CelestialCrunch</td>
+      <td>1948</td>
+      <td>SummitSelect Services</td>
+    </tr>
+    <tr>
+      <td>Mushroom - Chicken Tikka</td>
+      <td>8.95</td>
+      <td>QuantumQuench</td>
+      <td>564</td>
+      <td>OptiTrade Enterprises</td>
+    </tr>
+    <tr>
+      <td>Vindaloo - Prawn</td>
+      <td>8.95</td>
+      <td>PixelPunch</td>
+      <td>2296</td>
+      <td>OmniVendor Solutions</td>
+    </tr>
+    <tr>
+      <td>Malaya - Chicken</td>
+      <td>8.95</td>
+      <td>RadiantRecharge</td>
+      <td>517</td>
+      <td>OptiTrade Enterprises</td>
+    </tr>
+    <tr>
+      <td>Lamb Tikka Pasanda</td>
+      <td>8.95</td>
+      <td>SlickBlend</td>
+      <td>1795</td>
+      <td>OmniVendor Solutions</td>
+    </tr>
+    <tr>
+      <td>Lal Mirch Lamb</td>
+      <td>8.95</td>
+      <td>VitaVerve</td>
+      <td>676</td>
+      <td>GlobalSource Solutions</td>
+    </tr>
+    <tr>
+      <td>Cylon - Chicken Tikka</td>
+      <td>8.95</td>
+      <td>RadiantRecharge</td>
+      <td>2383</td>
+      <td>GlobalSource Solutions</td>
+    </tr>
+    <tr>
+      <td>Mushroom - Lamb</td>
+      <td>8.95</td>
+      <td>LunaLux</td>
+      <td>583</td>
+      <td>NexusProcure Partners</td>
+    </tr>
+    <tr>
+      <td>Lamb Chilli Masala</td>
+      <td>8.95</td>
+      <td>NovaNectar</td>
+      <td>894</td>
+      <td>NexusProcure Partners</td>
+    </tr>
+    <tr>
+      <td>Malaya - Lamb</td>
+      <td>8.95</td>
+      <td>NebulaNourish</td>
+      <td>2237</td>
+      <td>PrimeLink Suppliers</td>
+    </tr>
+    <tr>
+      <td>Bombay - Chicken Tikka</td>
+      <td>8.95</td>
+      <td>RadiantRecharge</td>
+      <td>1061</td>
+      <td>OptiTrade Enterprises</td>
+    </tr>
+    <tr>
+      <td>Lamb Rezala</td>
+      <td>8.95</td>
+      <td>StellarSnack</td>
+      <td>847</td>
+      <td>SummitSelect Services</td>
+    </tr>
+    <tr>
+      <td>Methi - Lamb</td>
+      <td>8.95</td>
+      <td>ZenZest</td>
+      <td>1180</td>
+      <td>GlobalSource Solutions</td>
+    </tr>
+    <tr>
+      <td>Saag - Chicken Tikka</td>
+      <td>8.95</td>
+      <td>CelestialCrunch</td>
+      <td>2289</td>
+      <td>NexusProcure Partners</td>
+    </tr>
+    <tr>
+      <td>Methi - Chicken Tikka</td>
+      <td>8.95</td>
+      <td>FusionFlare</td>
+      <td>829</td>
+      <td>OmniVendor Solutions</td>
+    </tr>
+    <tr>
+      <td>Lamb Sylhet</td>
+      <td>8.95</td>
+      <td>StellarSnack</td>
+      <td>1275</td>
+      <td>SummitSelect Services</td>
+    </tr>
+    <tr>
+      <td>Cylon - Lamb</td>
+      <td>8.95</td>
+      <td>StellarSnack</td>
+      <td>745</td>
+      <td>OmniVendor Solutions</td>
+    </tr>
+    <tr>
+      <td>Madras - chicken-tikka</td>
+      <td>8.95</td>
+      <td>StellarSnack</td>
+      <td>2169</td>
+      <td>NexusProcure Partners</td>
+    </tr>
+    <tr>
+      <td>Malaya - chicken-tikka</td>
+      <td>8.95</td>
+      <td>ZenZest</td>
+      <td>1332</td>
+      <td>SummitSelect Services</td>
+    </tr>
+    <tr>
+      <td>Bhuna - chicken-tikka</td>
+      <td>8.95</td>
+      <td>QuantumQuench</td>
+      <td>1642</td>
+      <td>SummitSelect Services</td>
+    </tr>
+    <tr>
+      <td>Korma - chicken-tikka</td>
+      <td>8.95</td>
+      <td>AuroraAppetite</td>
+      <td>1163</td>
+      <td>SummitSelect Services</td>
+    </tr>
+    <tr>
+      <td>Pathia - chicken-tikka</td>
+      <td>8.95</td>
+      <td>RadiantRecharge</td>
+      <td>1547</td>
+      <td>NexusProcure Partners</td>
+    </tr>
+    <tr>
+      <td>Dhansak - chicken-tikka</td>
+      <td>8.95</td>
+      <td>StellarSnack</td>
+      <td>1090</td>
+      <td>OptiTrade Enterprises</td>
+    </tr>
+    <tr>
+      <td>Rogon - chicken-tikka</td>
+      <td>8.95</td>
+      <td>HarmonyHydrate</td>
+      <td>1340</td>
+      <td>GlobalSource Solutions</td>
+    </tr>
+    <tr>
+      <td>Curry - chicken-tikka</td>
+      <td>8.95</td>
+      <td>FusionFlare</td>
+      <td>1733</td>
+      <td>SummitSelect Services</td>
+    </tr>
+    <tr>
+      <td>Mushroom - chicken-tikka</td>
+      <td>8.95</td>
+      <td>AuroraAppetite</td>
+      <td>1570</td>
+      <td>QuantumConnect Distributors</td>
+    </tr>
+    <tr>
+      <td>Cylon - chicken-tikka</td>
+      <td>8.95</td>
+      <td>AuroraAppetite</td>
+      <td>1878</td>
+      <td>OmniVendor Solutions</td>
+    </tr>
+    <tr>
+      <td>Vindaloo - chicken-tikka</td>
+      <td>8.95</td>
+      <td>TranquilTreats</td>
+      <td>1404</td>
+      <td>OmniVendor Solutions</td>
+    </tr>
+    <tr>
+      <td>Saag - chicken-tikka</td>
+      <td>8.95</td>
+      <td>TranquilTreats</td>
+      <td>1694</td>
+      <td>SummitSelect Services</td>
+    </tr>
+    <tr>
+      <td>Bombay - chicken-tikka</td>
+      <td>8.95</td>
+      <td>TranquilTreats</td>
+      <td>1712</td>
+      <td>QuantumConnect Distributors</td>
+    </tr>
+    <tr>
+      <td>Bhuna</td>
+      <td>8.95</td>
+      <td>ZenZest</td>
+      <td>640</td>
+      <td>QuantumConnect Distributors</td>
+    </tr>
+    <tr>
+      <td>Rogon</td>
+      <td>8.95</td>
+      <td>LunaLux</td>
+      <td>1663</td>
+      <td>QuantumConnect Distributors</td>
+    </tr>
+    <tr>
+      <td>Korma</td>
+      <td>8.95</td>
+      <td>VitaVerve</td>
+      <td>1004</td>
+      <td>PrimeLink Suppliers</td>
+    </tr>
+    <tr>
+      <td>Saag</td>
+      <td>8.95</td>
+      <td>VitaVerve</td>
+      <td>2372</td>
+      <td>GlobalSource Solutions</td>
+    </tr>
+    <tr>
+      <td>Dupiaza</td>
+      <td>8.95</td>
+      <td>SlickBlend</td>
+      <td>1315</td>
+      <td>PrimeLink Suppliers</td>
+    </tr>
+    <tr>
+      <td>Pathia</td>
+      <td>8.95</td>
+      <td>RadiantRecharge</td>
+      <td>1447</td>
+      <td>PrimeLink Suppliers</td>
+    </tr>
+    <tr>
+      <td>Mushroom</td>
+      <td>8.95</td>
+      <td>VelocityVitality</td>
+      <td>586</td>
+      <td>QuantumConnect Distributors</td>
+    </tr>
+    <tr>
+      <td>Cylon</td>
+      <td>8.95</td>
+      <td>VelocityVitality</td>
+      <td>1856</td>
+      <td>GlobalSource Solutions</td>
+    </tr>
+    <tr>
+      <td>Bombay</td>
+      <td>8.95</td>
+      <td>VelocityVitality</td>
+      <td>1777</td>
+      <td>GlobalSource Solutions</td>
+    </tr>
+    <tr>
+      <td>Methi</td>
+      <td>8.95</td>
+      <td>PinnaclePleasure</td>
+      <td>1134</td>
+      <td>PrimeLink Suppliers</td>
+    </tr>
+    <tr>
+      <td>Dhansak</td>
+      <td>8.95</td>
+      <td>StellarSnack</td>
+      <td>2299</td>
+      <td>NexusProcure Partners</td>
+    </tr>
+    <tr>
+      <td>Malaya</td>
+      <td>8.95</td>
+      <td>SlickBlend</td>
+      <td>504</td>
+      <td>NexusProcure Partners</td>
+    </tr>
+    <tr>
+      <td>Graps Specil</td>
+      <td>8.95</td>
+      <td>VelocityVitality</td>
+      <td>1911</td>
+      <td>OmniVendor Solutions</td>
+    </tr>
+    <tr>
+      <td>Kurma</td>
+      <td>8.95</td>
+      <td>PixelPunch</td>
+      <td>1408</td>
+      <td>PrimeLink Suppliers</td>
+    </tr>
+    <tr>
+      <td>Lamb Balti</td>
+      <td>9.95</td>
+      <td>TurboTaste</td>
+      <td>521</td>
+      <td>NexusProcure Partners</td>
+    </tr>
+    <tr>
+      <td>Lamb Biryani</td>
+      <td>9.95</td>
+      <td>StellarSnack</td>
+      <td>856</td>
+      <td>SummitSelect Services</td>
+    </tr>
+    <tr>
+      <td>Vegetable Biryani</td>
+      <td>9.95</td>
+      <td>EclipticElixirs</td>
+      <td>839</td>
+      <td>NexusProcure Partners</td>
+    </tr>
+    <tr>
+      <td>Paneer Karahi</td>
+      <td>9.95</td>
+      <td>CelestialCrunch</td>
+      <td>1338</td>
+      <td>PrimeLink Suppliers</td>
+    </tr>
+    <tr>
+      <td>Chicken Tikka Karahi</td>
+      <td>9.95</td>
+      <td>CelestialCrunch</td>
+      <td>836</td>
+      <td>OptiTrade Enterprises</td>
+    </tr>
+    <tr>
+      <td>Lamb Shaslick</td>
+      <td>9.95</td>
+      <td>HarmonyHydrate</td>
+      <td>1401</td>
+      <td>SummitSelect Services</td>
+    </tr>
+    <tr>
+      <td>Chicken Biryani</td>
+      <td>9.95</td>
+      <td>TranquilTreats</td>
+      <td>878</td>
+      <td>SummitSelect Services</td>
+    </tr>
+    <tr>
+      <td>Chicken Balti</td>
+      <td>9.95</td>
+      <td>StellarSnack</td>
+      <td>573</td>
+      <td>OmniVendor Solutions</td>
+    </tr>
+    <tr>
+      <td>Chicken Shaslick</td>
+      <td>9.95</td>
+      <td>ZenZest</td>
+      <td>736</td>
+      <td>GlobalSource Solutions</td>
+    </tr>
+    <tr>
+      <td>Tandoori Chicken Masala</td>
+      <td>9.95</td>
+      <td>ZenZest</td>
+      <td>1217</td>
+      <td>OptiTrade Enterprises</td>
+    </tr>
+    <tr>
+      <td>Lamb Tikka Sizzler</td>
+      <td>9.95</td>
+      <td>LunaLux</td>
+      <td>1730</td>
+      <td>GlobalSource Solutions</td>
+    </tr>
+    <tr>
+      <td>Paneer Sizzler</td>
+      <td>9.95</td>
+      <td>LunaLux</td>
+      <td>845</td>
+      <td>GlobalSource Solutions</td>
+    </tr>
+    <tr>
+      <td>Lamb Chops (Main)</td>
+      <td>9.95</td>
+      <td>RadiantRecharge</td>
+      <td>2491</td>
+      <td>OmniVendor Solutions</td>
+    </tr>
+    <tr>
+      <td>Paneer Shaslick</td>
+      <td>9.95</td>
+      <td>BlissBites</td>
+      <td>763</td>
+      <td>OptiTrade Enterprises</td>
+    </tr>
+    <tr>
+      <td>Dhansak - Prawn</td>
+      <td>9.95</td>
+      <td>QuantumQuench</td>
+      <td>2372</td>
+      <td>OptiTrade Enterprises</td>
+    </tr>
+    <tr>
+      <td>Chicken Tikka Sizzler</td>
+      <td>9.95</td>
+      <td>NebulaNourish</td>
+      <td>2399</td>
+      <td>QuantumConnect Distributors</td>
+    </tr>
+    <tr>
+      <td>Vegetable Balti</td>
+      <td>9.95</td>
+      <td>RadiantRecharge</td>
+      <td>2143</td>
+      <td>QuantumConnect Distributors</td>
+    </tr>
+    <tr>
+      <td>Prawn Karahi</td>
+      <td>9.95</td>
+      <td>FusionFlare</td>
+      <td>1885</td>
+      <td>SummitSelect Services</td>
+    </tr>
+    <tr>
+      <td>Lamb Tikka Karahi</td>
+      <td>9.95</td>
+      <td>LunaLux</td>
+      <td>1246</td>
+      <td>PrimeLink Suppliers</td>
+    </tr>
+    <tr>
+      <td>Cylon - Prawn</td>
+      <td>9.95</td>
+      <td>TurboTaste</td>
+      <td>1521</td>
+      <td>SummitSelect Services</td>
+    </tr>
+    <tr>
+      <td>Garlic Tikka Chilli Masala</td>
+      <td>9.95</td>
+      <td>LunaLux</td>
+      <td>736</td>
+      <td>SummitSelect Services</td>
+    </tr>
+    <tr>
+      <td>Korma - Prawn</td>
+      <td>9.95</td>
+      <td>ZenZest</td>
+      <td>1784</td>
+      <td>NexusProcure Partners</td>
+    </tr>
+    <tr>
+      <td>Dupiaza - Prawn</td>
+      <td>9.95</td>
+      <td>NebulaNourish</td>
+      <td>2157</td>
+      <td>PrimeLink Suppliers</td>
+    </tr>
+    <tr>
+      <td>Pathia - Prawn</td>
+      <td>9.95</td>
+      <td>CelestialCrunch</td>
+      <td>927</td>
+      <td>QuantumConnect Distributors</td>
+    </tr>
+    <tr>
+      <td>Methi - Prawn</td>
+      <td>9.95</td>
+      <td>StellarSnack</td>
+      <td>1587</td>
+      <td>QuantumConnect Distributors</td>
+    </tr>
+    <tr>
+      <td>Malaya - Prawn</td>
+      <td>9.95</td>
+      <td>PixelPunch</td>
+      <td>1597</td>
+      <td>GlobalSource Solutions</td>
+    </tr>
+    <tr>
+      <td>Bhuna - Prawn</td>
+      <td>9.95</td>
+      <td>VitaVerve</td>
+      <td>2342</td>
+      <td>QuantumConnect Distributors</td>
+    </tr>
+    <tr>
+      <td>Keema Aloo</td>
+      <td>9.95</td>
+      <td>NovaNectar</td>
+      <td>1263</td>
+      <td>NexusProcure Partners</td>
+    </tr>
+    <tr>
+      <td>Bombay - Prawn</td>
+      <td>9.95</td>
+      <td>PixelPunch</td>
+      <td>1524</td>
+      <td>OptiTrade Enterprises</td>
+    </tr>
+    <tr>
+      <td>Saag - Prawn</td>
+      <td>9.95</td>
+      <td>PinnaclePleasure</td>
+      <td>2492</td>
+      <td>SummitSelect Services</td>
+    </tr>
+    <tr>
+      <td>Chicken Shashlick</td>
+      <td>9.95</td>
+      <td>AuroraAppetite</td>
+      <td>1874</td>
+      <td>SummitSelect Services</td>
+    </tr>
+    <tr>
+      <td>Lamb Shashlick</td>
+      <td>9.95</td>
+      <td>TranquilTreats</td>
+      <td>1850</td>
+      <td>OmniVendor Solutions</td>
+    </tr>
+    <tr>
+      <td>Chicken Tikka Biryani</td>
+      <td>10.95</td>
+      <td>VitaVerve</td>
+      <td>2103</td>
+      <td>NexusProcure Partners</td>
+    </tr>
+    <tr>
+      <td>Lamb Tikka Biryani</td>
+      <td>10.95</td>
+      <td>PinnaclePleasure</td>
+      <td>1309</td>
+      <td>OmniVendor Solutions</td>
+    </tr>
+    <tr>
+      <td>Prawn Balti</td>
+      <td>10.95</td>
+      <td>NebulaNourish</td>
+      <td>1502</td>
+      <td>OmniVendor Solutions</td>
+    </tr>
+    <tr>
+      <td>Tandoori Fish (Main)</td>
+      <td>10.95</td>
+      <td>StellarSnack</td>
+      <td>1464</td>
+      <td>PrimeLink Suppliers</td>
+    </tr>
+    <tr>
+      <td>Lamb Tikka Balti</td>
+      <td>10.95</td>
+      <td>BlissBites</td>
+      <td>1861</td>
+      <td>PrimeLink Suppliers</td>
+    </tr>
+    <tr>
+      <td>Chicken Tikka Balti</td>
+      <td>10.95</td>
+      <td>NovaNectar</td>
+      <td>510</td>
+      <td>SummitSelect Services</td>
+    </tr>
+    <tr>
+      <td>Chicken Roshni</td>
+      <td>10.95</td>
+      <td>StellarSnack</td>
+      <td>1834</td>
+      <td>QuantumConnect Distributors</td>
+    </tr>
+    <tr>
+      <td>Lamb Roshni</td>
+      <td>10.95</td>
+      <td>SlickBlend</td>
+      <td>1428</td>
+      <td>PrimeLink Suppliers</td>
+    </tr>
+    <tr>
+      <td>Chicken Shashlick Curry</td>
+      <td>10.95</td>
+      <td>StellarSnack</td>
+      <td>1478</td>
+      <td>PrimeLink Suppliers</td>
+    </tr>
+    <tr>
+      <td>Prawn Biryani</td>
+      <td>10.95</td>
+      <td>NovaNectar</td>
+      <td>1028</td>
+      <td>SummitSelect Services</td>
+    </tr>
+    <tr>
+      <td>Lamb Shashlick Curry</td>
+      <td>10.95</td>
+      <td>PixelPunch</td>
+      <td>2002</td>
+      <td>SummitSelect Services</td>
+    </tr>
+    <tr>
+      <td>Tandoori Mixed Grill</td>
+      <td>11.95</td>
+      <td>EclipticElixirs</td>
+      <td>1118</td>
+      <td>OptiTrade Enterprises</td>
+    </tr>
+    <tr>
+      <td>Tandoori Fish Jalfrezi</td>
+      <td>11.95</td>
+      <td>FusionFlare</td>
+      <td>1373</td>
+      <td>OmniVendor Solutions</td>
+    </tr>
+    <tr>
+      <td>Persian Lamb Biryani</td>
+      <td>11.95</td>
+      <td>EclipticElixirs</td>
+      <td>1966</td>
+      <td>OptiTrade Enterprises</td>
+    </tr>
+    <tr>
+      <td>Curry - King Prawn</td>
+      <td>11.95</td>
+      <td>TurboTaste</td>
+      <td>809</td>
+      <td>OmniVendor Solutions</td>
+    </tr>
+    <tr>
+      <td>Tandoori Fish Karahi</td>
+      <td>11.95</td>
+      <td>QuantumQuench</td>
+      <td>1226</td>
+      <td>OptiTrade Enterprises</td>
+    </tr>
+    <tr>
+      <td>Madras - King Prawn</td>
+      <td>11.95</td>
+      <td>BlissBites</td>
+      <td>1991</td>
+      <td>OptiTrade Enterprises</td>
+    </tr>
+    <tr>
+      <td>Persian Chicken Biryani</td>
+      <td>11.95</td>
+      <td>CelestialCrunch</td>
+      <td>1331</td>
+      <td>GlobalSource Solutions</td>
+    </tr>
+    <tr>
+      <td>Vindaloo - King Prawn</td>
+      <td>11.95</td>
+      <td>VelocityVitality</td>
+      <td>1194</td>
+      <td>QuantumConnect Distributors</td>
+    </tr>
+    <tr>
+      <td>Curry - king-prawn</td>
+      <td>11.95</td>
+      <td>TurboTaste</td>
+      <td>1906</td>
+      <td>PrimeLink Suppliers</td>
+    </tr>
+    <tr>
+      <td>Vindaloo - king-prawn</td>
+      <td>11.95</td>
+      <td>AuroraAppetite</td>
+      <td>1613</td>
+      <td>GlobalSource Solutions</td>
+    </tr>
+    <tr>
+      <td>Madras - king-prawn</td>
+      <td>11.95</td>
+      <td>AuroraAppetite</td>
+      <td>1303</td>
+      <td>OmniVendor Solutions</td>
+    </tr>
+    <tr>
+      <td>King Prawn Biryani</td>
+      <td>12.95</td>
+      <td>TurboTaste</td>
+      <td>974</td>
+      <td>QuantumConnect Distributors</td>
+    </tr>
+    <tr>
+      <td>Dhansak - King Prawn</td>
+      <td>12.95</td>
+      <td>StellarSnack</td>
+      <td>1467</td>
+      <td>PrimeLink Suppliers</td>
+    </tr>
+    <tr>
+      <td>King Prawn Balti</td>
+      <td>12.95</td>
+      <td>VelocityVitality</td>
+      <td>719</td>
+      <td>PrimeLink Suppliers</td>
+    </tr>
+    <tr>
+      <td>Korma - King Prawn</td>
+      <td>12.95</td>
+      <td>HarmonyHydrate</td>
+      <td>1427</td>
+      <td>QuantumConnect Distributors</td>
+    </tr>
+    <tr>
+      <td>Tandoori King Prawn Garlic</td>
+      <td>12.95</td>
+      <td>ZenZest</td>
+      <td>1329</td>
+      <td>SummitSelect Services</td>
+    </tr>
+    <tr>
+      <td>King Prawn Shaslick</td>
+      <td>12.95</td>
+      <td>CelestialCrunch</td>
+      <td>2029</td>
+      <td>NexusProcure Partners</td>
+    </tr>
+    <tr>
+      <td>King Prawn Royal</td>
+      <td>12.95</td>
+      <td>SlickBlend</td>
+      <td>1108</td>
+      <td>OptiTrade Enterprises</td>
+    </tr>
+    <tr>
+      <td>Tandoori King Prawn Masala</td>
+      <td>12.95</td>
+      <td>SlickBlend</td>
+      <td>2249</td>
+      <td>GlobalSource Solutions</td>
+    </tr>
+    <tr>
+      <td>Pathia - King Prawn</td>
+      <td>12.95</td>
+      <td>VelocityVitality</td>
+      <td>1511</td>
+      <td>PrimeLink Suppliers</td>
+    </tr>
+    <tr>
+      <td>King Prawn Karahi</td>
+      <td>12.95</td>
+      <td>ZenZest</td>
+      <td>628</td>
+      <td>SummitSelect Services</td>
+    </tr>
+    <tr>
+      <td>Bhuna - King Prawn</td>
+      <td>12.95</td>
+      <td>VelocityVitality</td>
+      <td>1439</td>
+      <td>PrimeLink Suppliers</td>
+    </tr>
+    <tr>
+      <td>Jinga Chillies</td>
+      <td>12.95</td>
+      <td>BlissBites</td>
+      <td>703</td>
+      <td>QuantumConnect Distributors</td>
+    </tr>
+    <tr>
+      <td>King Prawn Jalfrezi</td>
+      <td>12.95</td>
+      <td>NebulaNourish</td>
+      <td>1798</td>
+      <td>PrimeLink Suppliers</td>
+    </tr>
+    <tr>
+      <td>Cylon - King Prawn</td>
+      <td>12.95</td>
+      <td>NebulaNourish</td>
+      <td>1512</td>
+      <td>NexusProcure Partners</td>
+    </tr>
+    <tr>
+      <td>Bombay - King Prawn</td>
+      <td>12.95</td>
+      <td>RadiantRecharge</td>
+      <td>1229</td>
+      <td>NexusProcure Partners</td>
+    </tr>
+    <tr>
+      <td>Dupiaza - King Prawn</td>
+      <td>12.95</td>
+      <td>PinnaclePleasure</td>
+      <td>2292</td>
+      <td>OmniVendor Solutions</td>
+    </tr>
+    <tr>
+      <td>Mushroom - King Prawn</td>
+      <td>12.95</td>
+      <td>TurboTaste</td>
+      <td>990</td>
+      <td>PrimeLink Suppliers</td>
+    </tr>
+    <tr>
+      <td>Rogon - King Prawn</td>
+      <td>12.95</td>
+      <td>QuantumQuench</td>
+      <td>1193</td>
+      <td>SummitSelect Services</td>
+    </tr>
+    <tr>
+      <td>Saag - King Prawn</td>
+      <td>12.95</td>
+      <td>BlissBites</td>
+      <td>876</td>
+      <td>OptiTrade Enterprises</td>
+    </tr>
+    <tr>
+      <td>Pathia - king-prawn</td>
+      <td>12.95</td>
+      <td>ZenZest</td>
+      <td>2490</td>
+      <td>OmniVendor Solutions</td>
+    </tr>
+    <tr>
+      <td>Cylon - king-prawn</td>
+      <td>12.95</td>
+      <td>FusionFlare</td>
+      <td>2071</td>
+      <td>SummitSelect Services</td>
+    </tr>
+    <tr>
+      <td>Bhuna - king-prawn</td>
+      <td>12.95</td>
+      <td>VitaVerve</td>
+      <td>1566</td>
+      <td>GlobalSource Solutions</td>
+    </tr>
+    <tr>
+      <td>Dhansak - king-prawn</td>
+      <td>12.95</td>
+      <td>TranquilTreats</td>
+      <td>1905</td>
+      <td>QuantumConnect Distributors</td>
+    </tr>
+    <tr>
+      <td>Methi - king-prawn</td>
+      <td>12.95</td>
+      <td>BlissBites</td>
+      <td>601</td>
+      <td>NexusProcure Partners</td>
+    </tr>
+    <tr>
+      <td>Saag - king-prawn</td>
+      <td>12.95</td>
+      <td>HarmonyHydrate</td>
+      <td>1161</td>
+      <td>GlobalSource Solutions</td>
+    </tr>
+    <tr>
+      <td>Dupiaza - king-prawn</td>
+      <td>12.95</td>
+      <td>HarmonyHydrate</td>
+      <td>1094</td>
+      <td>QuantumConnect Distributors</td>
+    </tr>
+    <tr>
+      <td>Methi - King Prawn</td>
+      <td>12.95</td>
+      <td>HarmonyHydrate</td>
+      <td>505</td>
+      <td>QuantumConnect Distributors</td>
+    </tr>
+    <tr>
+      <td>House white wine 75cl</td>
+      <td>17.95</td>
+      <td>PixelPunch</td>
+      <td>526</td>
+      <td>SummitSelect Services</td>
+    </tr>
+    <tr>
+      <td>House Red wine 75cl</td>
+      <td>17.95</td>
+      <td>RadiantRecharge</td>
+      <td>741</td>
+      <td>OmniVendor Solutions</td>
+    </tr>
+  </tbody>
+</table>
+    </body>
+    </html>
+    
